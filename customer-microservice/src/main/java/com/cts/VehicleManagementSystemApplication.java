@@ -1,0 +1,15 @@
+package com.cts;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+public class VehicleManagementSystemApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(VehicleManagementSystemApplication.class, args);
+	}
+
+}
